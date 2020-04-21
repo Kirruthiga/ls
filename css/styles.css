@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,900,700,500|Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,600&display=swap');
+
+/* for Montserrat black-900, bold-700, medium-500, light-300 */
+body{
+    font-family:'Montserrat';
+}
+#title
+{
+	background-image: url('../images/cake.jpg');
+    background-size: cover;
+    color: #fff;
+}
+#title .container-fluid
+{
+  padding: 3% 3% 7%;  
+}
+#title h1
+{
+ font-family:'Dancing Script'; 
+ font-weight:600;
+ font-size:7.5rem;
+ line-height:1.5em;
+ text-align: center;
+} 
+
+/*Navigation bar*/
+
+#title .navbar
+{
+    padding: 0 0 4.5rem;
+}
+
+#title .nav-item
+{
+    padding: 0 18px;
+}
+#title .nav-link
+{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+	font-weight:300;
+}
+
+/* features-section */
+#features
+{
+	padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+#features .feature-box
+{
+	text-align: center;
+	padding:5%;
+}
+#features h3
+{
+	font-family:'Montserrat';
+	font-weight:700;
+}
+#features .icon
+{
+	color: #9933ff;
+	margin-bottom:1rem;
+}
+#features .icon:hover
+{
+	color: #b366ff;
+}
+
+/* testimonial section */
+#testimonials
+{
+	font-family:'Montserrat';
+	color:#fff;
+}
+#testimonials .carousel-item
+{
+    padding:7% 16%;
+}
+#testimonials h2
+{
+    font-family: 'Dancing Script';
+	font-weight:600;
+	font-size:120px;
+	line-height:1.5;
+    text-align: right;
+}
+
+
+
+
+@media (max-width:1028px)
+{
+    #title
+    {
+        text-align: center;
+    }
+    
+}
+
+/* About Us */
+
+#aboutus h3
+{
+    font-family: 'Dancing Script';
+	font-weight:600;
+    color: #ff66a3; 
+    font-size:6rem;
+	line-height:1.5;
+    text-align: center;
+}
+
+/* footer section */
+
+#footer
+{
+    background-color:#9933ff; 
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon
+{
+    margin: 20px 10px;
+    color:#fff;
+}
+#footer p
+{
+    color: #fff;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+	
+	
+	
